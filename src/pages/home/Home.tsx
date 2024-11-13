@@ -1,11 +1,15 @@
 
 import HeroSection from "./HeroSection";
+import SearchSection from "./SearchSection";
 
 
 const Home = () => {
     return (
      
-        <HeroSection/>
+       <div>
+         <HeroSection/>
+         <SearchSection/>
+       </div>
      
     );
 };
