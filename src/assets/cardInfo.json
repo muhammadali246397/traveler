@@ -1,0 +1,42 @@
+
+{
+    "cards": [
+      {
+        "name": "Vintage Watch",
+        "image": "https://example.com/watch.jpg",
+        "description": "A stylish vintage watch perfect for all occasions.",
+        "price": 59.99
+      },
+      {
+        "name": "Leather Wallet",
+        "image": "https://example.com/wallet.jpg",
+        "description": "Premium leather wallet with multiple compartments.",
+        "price": 24.99
+      },
+      {
+        "name": "Wireless Earbuds",
+        "image": "https://example.com/earbuds.jpg",
+        "description": "High-quality sound with noise cancellation features.",
+        "price": 79.99
+      },
+      {
+        "name": "Fitness Tracker",
+        "image": "https://example.com/fitness_tracker.jpg",
+        "description": "Keep track of your health and fitness goals.",
+        "price": 39.99
+      },
+      {
+        "name": "Smartphone Stand",
+        "image": "https://example.com/stand.jpg",
+        "description": "Adjustable smartphone stand for hands-free viewing.",
+        "price": 14.99
+      },
+      {
+        "name": "Portable Charger",
+        "image": "https://example.com/charger.jpg",
+        "description": "Compact and powerful portable charger with fast charging.",
+        "price": 29.99
+      }
+    ]
+  }
+  

@@ -34,7 +34,7 @@ const HeroSection = () => {
             <div className='w-full py-28 bg-black bg-opacity-40'>
                 <Container classname={'text-center'}>
                 <h1 className='text-7xl lg:px-10 font-bold text-white leading-[90px]'>Vulputate Mollis Ultricies Fermentum Parturient</h1>
-                <Button className='mt-10 bg-[#5191FA] text-white text-lg font-semibold'>Read More</Button>
+                <Button className='mt-10 text-white text-lg font-semibold'>Read More</Button>
                 </Container>
             </div>
         </SwiperSlide>

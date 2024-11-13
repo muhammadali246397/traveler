@@ -1,6 +1,7 @@
 
 import HeroSection from "./HeroSection";
 import SearchSection from "./SearchSection";
+import TopPlaceSection from "./TopPlaceSection";
 
 
 const Home = () => {
@@ -9,6 +10,7 @@ const Home = () => {
        <div>
          <HeroSection/>
          <SearchSection/>
+         <TopPlaceSection/>
        </div>
      
     );
