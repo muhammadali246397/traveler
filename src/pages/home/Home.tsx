@@ -1,5 +1,6 @@
 
 import HeroSection from "./HeroSection";
+import PromotionSection from "./PromotionSection";
 import SearchSection from "./SearchSection";
 import TopPlaceSection from "./TopPlaceSection";
 
@@ -11,6 +12,7 @@ const Home = () => {
          <HeroSection/>
          <SearchSection/>
          <TopPlaceSection/>
+         <PromotionSection/>
        </div>
      
     );

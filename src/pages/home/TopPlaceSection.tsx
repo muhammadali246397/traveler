@@ -21,7 +21,7 @@ const TopPlaceSection = () => {
                 <h1 className="font-semibold text-4xl ">Top Places</h1>
                 <p className="mt-3 text-gray-700 text-xl">BEST TRAVEL PACKAGES AVAILABLE</p>
             </div>
-            <div className="grid lg:grid-cols-3 gap-5 mt-10">
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5 mt-10">
                 <Card></Card>
                 <Card></Card>
                 <Card></Card>
