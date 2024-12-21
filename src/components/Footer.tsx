@@ -1,9 +1,10 @@
 import Container from "@/lib/Container";
 import img from '../assets/footer.jpg'
-import { FaFacebook, FaFacebookF, FaFax, FaInbox, FaLinkedinIn, FaLocationDot } from "react-icons/fa6";
-import { FaGooglePlusG, FaLinkedin, FaPhoneAlt, FaTwitter } from "react-icons/fa";
+import { FaFacebookF, FaFax, FaInbox, FaLinkedinIn, FaLocationDot } from "react-icons/fa6";
+import { FaGooglePlusG, FaPhoneAlt, FaTwitter } from "react-icons/fa";
 
 import { Button } from "./ui/button";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
     return (
@@ -28,7 +29,37 @@ const Footer = () => {
 
                         </div>
                     </div>
-                    <div className="text-white "><span className="border-b-2 border-white py-3 text-xl font-semibold">Tag</span></div>
+                    <div>
+                        <div className="text-white "><span className="border-b-2 border-white py-3 text-xl font-semibold">Tag</span></div>
+                        <div className="mt-8 grid gap-1">
+                            <div className="w-8/12 h-10 grid grid-cols-3 gap-1">
+                                <Link to='/' className="bg-white bg-opacity-20 text-white hover:bg-blue-500 flex justify-center items-center ">some text</Link>
+                                <Link to='/' className="bg-white bg-opacity-20 text-white hover:bg-blue-500 flex justify-center items-center ">some text</Link>
+                                <Link to='/' className="bg-white bg-opacity-20 text-white hover:bg-blue-500 flex justify-center items-center ">some text</Link>
+                            </div>
+                            <div className="w-10/12 grid grid-cols-3 gap-1 h-10">
+                            <Link to='/' className="bg-white bg-opacity-20 text-white hover:bg-blue-500 flex justify-center items-center ">some text</Link>
+                            <Link to='/' className="bg-white bg-opacity-20 text-white hover:bg-blue-500 flex justify-center items-center ">some text</Link>
+                            <Link to='/' className="bg-white bg-opacity-20 text-white hover:bg-blue-500 flex justify-center items-center ">some text</Link>
+                            </div>
+                            <div className="w-8/12 h-10 grid grid-cols-3 gap-1">
+                            <Link to='/' className="bg-white bg-opacity-20 text-white hover:bg-blue-500 flex justify-center items-center ">some text</Link>
+                            <Link to='/' className="bg-white bg-opacity-20 text-white hover:bg-blue-500 flex justify-center items-center ">some text</Link>
+                            <Link to='/' className="bg-white bg-opacity-20 text-white hover:bg-blue-500 flex justify-center items-center ">some text</Link>
+
+                            </div>
+                            <div className="w-10/12 grid grid-cols-3 gap-1 h-10">
+                            <Link to='/' className="bg-white bg-opacity-20 text-white hover:bg-blue-500 flex justify-center items-center ">some text</Link>
+                            <Link to='/' className="bg-white bg-opacity-20 text-white hover:bg-blue-500 flex justify-center items-center ">some text</Link>
+                            <Link to='/' className="bg-white bg-opacity-20 text-white hover:bg-blue-500 flex justify-center items-center ">some text</Link>
+                            </div>
+                            <div className="w-8/12 h-10 grid grid-cols-3 gap-1">
+                            <Link to='/' className="bg-white bg-opacity-20 text-white hover:bg-blue-500 flex justify-center items-center ">some text</Link>
+                            <Link to='/' className="bg-white bg-opacity-20 text-white hover:bg-blue-500 flex justify-center items-center ">some text</Link>
+                            <Link to='/' className="bg-white bg-opacity-20 text-white hover:bg-blue-500 flex justify-center items-center ">some text</Link>
+                            </div>
+                        </div>
+                    </div>
                     <div className="text-white "><span className="border-b-2 border-white py-3 text-xl font-semibold">Contact Us</span></div>
 
                 </div>
