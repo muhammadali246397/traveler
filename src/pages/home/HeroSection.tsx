@@ -14,32 +14,32 @@ const HeroSection = () => {
     return (
         <div>
             <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
-        <SwiperSlide className='w-full' style={{backgroundImage :`url(${img1})`,backgroundSize:'cover' }}>
-            <div className='w-full py-28 bg-black bg-opacity-40'>
-                <Container classname={'text-center'}>
-                <h1 className='text-7xl lg:px-10 font-bold text-white leading-[90px]'>Vulputate Mollis Ultricies Fermentum Parturient</h1>
-                <Button className='mt-10 bg-[#5191FA] text-white text-lg font-semibold'>Read More</Button>
-                </Container>
-            </div>
-        </SwiperSlide>
-        <SwiperSlide className='w-full' style={{backgroundImage :`url(${img2})`,backgroundSize:'cover' }}>
-            <div className='w-full py-28 bg-black bg-opacity-40'>
-                <Container classname={'text-center'}>
-                <h1 className='text-7xl lg:px-10 font-bold text-white leading-[90px]'>Vulputate Mollis Ultricies Fermentum Parturient</h1>
-                <Button className='mt-10 bg-[#5191FA] text-white text-lg font-semibold'>Read More</Button>
-                </Container>
-            </div>
-        </SwiperSlide>
-        <SwiperSlide className='w-full' style={{backgroundImage :`url(${img3})`,backgroundSize:'cover' }}>
-            <div className='w-full py-28 bg-black bg-opacity-40'>
-                <Container classname={'text-center'}>
-                <h1 className='text-7xl lg:px-10 font-bold text-white leading-[90px]'>Vulputate Mollis Ultricies Fermentum Parturient</h1>
-                <Button className='mt-10 text-white text-lg font-semibold'>Read More</Button>
-                </Container>
-            </div>
-        </SwiperSlide>
-        
-      </Swiper>
+                <SwiperSlide className='w-full' style={{ backgroundImage: `url(${img1})`, backgroundSize: 'cover' }}>
+                    <div className='w-full py-28 bg-black bg-opacity-40'>
+                        <Container classname={'text-center'}>
+                            <h1 className='text-7xl lg:px-10 font-bold text-white leading-[90px]'>Vulputate Mollis Ultricies Fermentum Parturient</h1>
+                            <Button className='mt-10 bg-[#5191FA] text-white text-lg font-semibold'>Read More</Button>
+                        </Container>
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide className='w-full' style={{ backgroundImage: `url(${img2})`, backgroundSize: 'cover' }}>
+                    <div className='w-full py-28 bg-black bg-opacity-40'>
+                        <Container classname={'text-center'}>
+                            <h1 className='text-7xl lg:px-10 font-bold text-white leading-[90px]'>Vulputate Mollis Ultricies Fermentum Parturient</h1>
+                            <Button className='mt-10 bg-[#5191FA] text-white text-lg font-semibold'>Read More</Button>
+                        </Container>
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide className='w-full' style={{ backgroundImage: `url(${img3})`, backgroundSize: 'cover' }}>
+                    <div className='w-full py-28 bg-black bg-opacity-40'>
+                        <Container classname={'text-center'}>
+                            <h1 className='text-7xl lg:px-10 font-bold text-white leading-[90px]'>Vulputate Mollis Ultricies Fermentum Parturient</h1>
+                            <Button className='mt-10 text-white text-lg font-semibold'>Read More</Button>
+                        </Container>
+                    </div>
+                </SwiperSlide>
+
+            </Swiper>
         </div>
     );
 };
