@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
     return (
-        <div className="mt-16" style={{ backgroundImage: `url(${img})`, backgroundRepeat: 'no-repeat', backgroundPosition: 'cover' }}>
+        <div className="mt-16" style={{ backgroundImage: `url(${img})`, backgroundRepeat: 'no-repeat', backgroundSize:'cover' }}>
             <Container classname={'py-16'}>
                 <div className="grid grid-cols-3">
                     <div >
@@ -32,35 +32,56 @@ const Footer = () => {
                     <div>
                         <div className="text-white "><span className="border-b-2 border-white py-3 text-xl font-semibold">Tag</span></div>
                         <div className="mt-8 grid gap-1">
-                            <div className="w-8/12 h-10 grid grid-cols-3 gap-1">
-                                <Link to='/' className="bg-white bg-opacity-20 text-white hover:bg-blue-500 flex justify-center items-center ">some text</Link>
-                                <Link to='/' className="bg-white bg-opacity-20 text-white hover:bg-blue-500 flex justify-center items-center ">some text</Link>
-                                <Link to='/' className="bg-white bg-opacity-20 text-white hover:bg-blue-500 flex justify-center items-center ">some text</Link>
+                            <div className="w-9/12 h-10 grid grid-cols-3 gap-1 text-sm">
+                                <Link to='/' className="bg-white bg-opacity-20 text-white hover:bg-blue-500 flex justify-center items-center ">Design</Link>
+                                <Link to='/' className="bg-white bg-opacity-20 text-white hover:bg-blue-500 flex justify-center items-center ">User Interface</Link>
+                                <Link to='/' className="bg-white bg-opacity-20 text-white hover:bg-blue-500 flex justify-center items-center ">SEO</Link>
                             </div>
-                            <div className="w-10/12 grid grid-cols-3 gap-1 h-10">
-                            <Link to='/' className="bg-white bg-opacity-20 text-white hover:bg-blue-500 flex justify-center items-center ">some text</Link>
-                            <Link to='/' className="bg-white bg-opacity-20 text-white hover:bg-blue-500 flex justify-center items-center ">some text</Link>
-                            <Link to='/' className="bg-white bg-opacity-20 text-white hover:bg-blue-500 flex justify-center items-center ">some text</Link>
+                            <div className="w-11/12 grid grid-cols-3 gap-1 h-10 text-sm">
+                                <Link to='/' className="bg-white bg-opacity-20 text-white hover:bg-blue-500 flex justify-center items-center ">WordPress</Link>
+                                <Link to='/' className="bg-white bg-opacity-20 text-white hover:bg-blue-500 flex justify-center items-center ">Development</Link>
+                                <Link to='/' className="bg-white bg-opacity-20 text-white hover:bg-blue-500 flex justify-center items-center ">Joolma</Link>
                             </div>
-                            <div className="w-8/12 h-10 grid grid-cols-3 gap-1">
-                            <Link to='/' className="bg-white bg-opacity-20 text-white hover:bg-blue-500 flex justify-center items-center ">some text</Link>
-                            <Link to='/' className="bg-white bg-opacity-20 text-white hover:bg-blue-500 flex justify-center items-center ">some text</Link>
-                            <Link to='/' className="bg-white bg-opacity-20 text-white hover:bg-blue-500 flex justify-center items-center ">some text</Link>
+                            <div className="w-9/12 h-10 grid grid-cols-3 gap-1 text-sm">
+                                <Link to='/' className="bg-white bg-opacity-20 text-white hover:bg-blue-500 flex justify-center items-center ">Design</Link>
+                                <Link to='/' className="bg-white bg-opacity-20 text-white hover:bg-blue-500 flex justify-center items-center ">User Interface</Link>
+                                <Link to='/' className="bg-white bg-opacity-20 text-white hover:bg-blue-500 flex justify-center items-center ">SEO</Link>
 
                             </div>
-                            <div className="w-10/12 grid grid-cols-3 gap-1 h-10">
-                            <Link to='/' className="bg-white bg-opacity-20 text-white hover:bg-blue-500 flex justify-center items-center ">some text</Link>
-                            <Link to='/' className="bg-white bg-opacity-20 text-white hover:bg-blue-500 flex justify-center items-center ">some text</Link>
-                            <Link to='/' className="bg-white bg-opacity-20 text-white hover:bg-blue-500 flex justify-center items-center ">some text</Link>
+                            <div className="w-11/12 grid grid-cols-3 gap-1 h-10 text-sm">
+                                <Link to='/' className="bg-white bg-opacity-20 text-white hover:bg-blue-500 flex justify-center items-center ">WordPress</Link>
+                                <Link to='/' className="bg-white bg-opacity-20 text-white hover:bg-blue-500 flex justify-center items-center ">Development</Link>
+                                <Link to='/' className="bg-white bg-opacity-20 text-white hover:bg-blue-500 flex justify-center items-center ">Joolma</Link>
                             </div>
-                            <div className="w-8/12 h-10 grid grid-cols-3 gap-1">
-                            <Link to='/' className="bg-white bg-opacity-20 text-white hover:bg-blue-500 flex justify-center items-center ">some text</Link>
-                            <Link to='/' className="bg-white bg-opacity-20 text-white hover:bg-blue-500 flex justify-center items-center ">some text</Link>
-                            <Link to='/' className="bg-white bg-opacity-20 text-white hover:bg-blue-500 flex justify-center items-center ">some text</Link>
+                            <div className="w-9/12 h-10 grid grid-cols-3 gap-1 text-sm">
+                                <Link to='/' className="bg-white bg-opacity-20 text-white hover:bg-blue-500 flex justify-center items-center ">Design</Link>
+                                <Link to='/' className="bg-white bg-opacity-20 text-white hover:bg-blue-500 flex justify-center items-center ">User Interfacre</Link>
+                                <Link to='/' className="bg-white bg-opacity-20 text-white hover:bg-blue-500 flex justify-center items-center ">SEO</Link>
                             </div>
                         </div>
                     </div>
-                    <div className="text-white "><span className="border-b-2 border-white py-3 text-xl font-semibold">Contact Us</span></div>
+                    <div>
+                        <div className="text-white "><span className="border-b-2 border-white py-3 text-xl font-semibold">Contact Us</span></div>
+                        <div className="mt-8">
+                            <form action="">
+                                <div className=''>
+                                  
+                                    <input className="bg-white text-white bg-opacity-20 py-2 px-2 w-full mt-2" type="text" placeholder="Your Name..." />
+                                </div>
+                                <div className=''>
+                                
+                                    <input className="bg-white text-white bg-opacity-20 py-2 px-2 w-full mt-2" type="text" placeholder="Your Email Address.." />
+                                </div>
+                                <div className=''>
+                                   
+                                    <textarea className="bg-white text-white bg-opacity-20 py-2 px-2 w-full mt-2" placeholder="Your Message..." />
+                                </div>
+                                <div>
+                                    <input className="text-white bg-white bg-opacity-20 px-4 py-3 rounded-md w-1/4 cursor-pointer hover:bg-blue-500 transition-all" type="submit" value='Submit' />
+                                </div>
+                            </form>
+                        </div>
+                    </div>
 
                 </div>
             </Container>
