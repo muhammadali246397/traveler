@@ -1,6 +1,7 @@
 import Container from "@/lib/Container";
 import img from "../../assets/img2.jpg"
 import img1 from "../../assets/img3.jpg"
+import img2 from "../../assets/login.jpg"
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
 import { Link } from "react-router-dom";
@@ -23,12 +24,12 @@ const Login = () => {
                     </div>
                     <div className="border px-3 py-5 mt-10 relative">
                         <label htmlFor="">Email Adress..</label> <br />
-                        <input className="focus:border-white mt-2 " type="text" placeholder="Email..." />
+                        <input className="focus:border-white mt-2 w-full" type="text" placeholder="Email..." />
                         <div className="absolute w-[2px] h-[96px] bg-blue-600 top-0 left-0"></div>
                     </div>
                     <div className="border px-3 py-5 relative ">
                         <label htmlFor="">Password..</label> <br />
-                        <input className="focus:border-white mt-2" type="text" placeholder="Pass..." />
+                        <input className="focus:border-white mt-2 w-full" type="text" placeholder="Pass..." />
                         <div className="absolute w-[2px] h-[96px] bg-blue-600 top-0 left-0"></div>
                     </div>
                     <div className="flex justify-between mt-4">
@@ -46,11 +47,17 @@ const Login = () => {
             </div>
             <div className="md:col-span-8 col-span-12">
                 <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
-                    <SwiperSlide className='w-full h-screen' style={{ backgroundImage: `url(${img})`, backgroundSize: 'cover' }}>
+                    <SwiperSlide className='w-full h-screen relative'>
                         <img className="max-w-full h-screen" src={img} alt="" />
+                        <div className="bg-black absolute top-0 right-0 w-full h-screen bg-opacity-50"></div>
                     </SwiperSlide>
-                    <SwiperSlide className='w-full h-screen' style={{ backgroundImage: `url(${img})`, backgroundSize: 'cover' }}>
+                    <SwiperSlide className='w-full h-screen relative '>
                         <img className="max-w-full h-screen" src={img1} alt="" />
+                        <div className="bg-black absolute top-0 right-0 w-full h-screen bg-opacity-50"></div>
+                    </SwiperSlide>
+                    <SwiperSlide className='w-full h-screen relative' >
+                        <img className="max-w-full h-screen" src={img2} alt="" />
+                        <div className="bg-black absolute top-0 right-0 w-full h-screen bg-opacity-50"></div>
                     </SwiperSlide>
                 </Swiper>
 
