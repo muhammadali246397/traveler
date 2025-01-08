@@ -11,10 +11,10 @@ const Error = () => {
                 <div className='grid grid-cols-2'>
                     <div className='flex justify-center items-center'>
                         <div>
-                            <h1 className='text-9xl font-bold'>404</h1>
-                            <h2 className='text-6xl font-bold'>OOPS!</h2>
-                            <h3 className='text-4xl mb-5 font-bold text-blue-500'>Page Not Found</h3>
-                            <Link  to='/'><Button>Back To Home</Button></Link>
+                            <h1 className='text-9xl tracking-widest font-extrabold'>404</h1>
+                            <h2 className='text-7xl font-extrabold tracking-widest'>OOPS!</h2>
+                            <h3 className='text-5xl tracking-wides mt-5 font-bold text-blue-500'>Page Not Found</h3>
+                            <Link className=''  to='/'><Button className='mt-10 mx-auto text-xl'>Back To Home</Button></Link>
                         </div>
                     </div>
                     <div>
