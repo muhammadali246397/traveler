@@ -1,5 +1,6 @@
 
 import HeroSection from "./HeroSection";
+import HolidaysPackage from "./HolidaysPackage";
 import PopularDestinationSection from "./PopularDestinationSection";
 import PromotionSection from "./PromotionSection";
 import SearchSection from "./SearchSection";
@@ -14,7 +15,10 @@ const Home = () => {
          <SearchSection/>
          <TopPlaceSection/>
          <PromotionSection/>
-         <PopularDestinationSection/>
+        <div className="bg-[#f7f9fb]">
+        <PopularDestinationSection/>
+        <HolidaysPackage/>
+        </div>
        </div>
      
     );

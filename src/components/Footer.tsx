@@ -8,9 +8,9 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
     return (
-        <div className="mt-16" style={{ backgroundImage: `url(${img})`, backgroundRepeat: 'no-repeat', backgroundSize:'cover' }}>
+        <div className="" style={{ backgroundImage: `url(${img})`, backgroundRepeat: 'no-repeat', backgroundSize:'cover' }}>
             <Container classname={'py-16'}>
-                <div className="grid grid-cols-3">
+                <div className="grid md:grid-cols-3">
                     <div >
                         <div className="text-white "><span className="border-b-2 border-white py-3 text-2xl font-semibold">Travel</span></div>
                         <div className="text-white mt-8">

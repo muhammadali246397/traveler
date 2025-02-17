@@ -6,7 +6,7 @@ import { NavLink } from "react-router-dom";
 
 const PromotionSection = () => {
     return (
-        <div className="my-12">
+        <div className="mt-16">
             <Parallax
                 bgImage={bg}
                 strength={200}
